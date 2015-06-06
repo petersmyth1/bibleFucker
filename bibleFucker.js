@@ -5,7 +5,7 @@ var Parser = require('./parser');
 var Fucker = require('./fucker');
 var WordSwap = require('./wordSwap');
 
-var API = "b7e4ea6d2a4405573300b0166030681fb62421a34b5c36bf1";
+var API = "--api--";
 var rhymeURL1 = 'http://api.wordnik.com:80/v4/word.json/';
 var rhymeURL2 = '/relatedWords?useCanonical=false&relationshipTypes=rhyme&limitPerRelationshipType=20&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5';
 var catRhymeURL = 'http://api.wordnik.com:80/v4/word.json/cats/relatedWords?useCanonical=false&relationshipTypes=rhyme&limitPerRelationshipType=20&api_key=' + API;
